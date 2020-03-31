@@ -1,0 +1,40 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+}
+
+html,
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #CCC;
+}
+
+.main-container {
+    display: grid;
+    height: 100%;
+    grid-template-rows: 1fr 12fr 1fr;
+}
+
+.row-one,
+.row-two,
+.row-three {
+    display: grid;
+    grid-template-columns: 1fr 5fr 2fr;
+    background-color: #75343e;
+}
+
+.row-two {
+    background-color: #c5adb7;
+}
+
+.row-three {
+    background-color: rgb(63, 59, 59);
+    border-color: white;
+    }
+
+.container-padding {
+    margin: 12px;
+    border: 1px dashed rgb(255, 243, 243);
+}
